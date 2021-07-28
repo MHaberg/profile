@@ -11,7 +11,7 @@ body {
 h1, h2 {
   color:#C2948A;
   font-family: 'Roboto mono', sans-serif;
-  /* font-size: 40px; */
+  font-weight: bold;
   line-height: 1;
 }
 
@@ -27,17 +27,15 @@ a {
   font-weight: bold;
   margin: 20px auto;
 }
+
 a:hover {
   color:rgb(255, 255, 255);
   background-color:rgb(241, 58, 195)
 }
-li {
-  display: inline;
-  font-size: 20px;
-}
 
-ul {
-  list-style: none;
+.social-btn:hover {
+  background-color:rgb(255, 255, 255);
+  color:rgb(241, 58, 195);
   padding: 0;
 }
 
@@ -72,6 +70,7 @@ ul {
 
 .img-circle {
   border-radius: 50%;
+  padding: 10px;
 }
 
 .btn-yellow {
@@ -79,4 +78,16 @@ ul {
   color:#495149;
   padding: 15px 20px;
   border-radius: 4px;
+}
+
+li {
+  display: inline;
+  font-size: 24px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
